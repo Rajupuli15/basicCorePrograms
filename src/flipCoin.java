@@ -4,10 +4,10 @@ public class flipCoin {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter how many time want to flip coin ");
-        int numberOfFlips = scanner.nextInt();
+        System.out.println("Enter a year to check leap year or not");
+        int yearToCheck = scanner.nextInt();
         scanner.close();
-        flip(numberOfFlips);
+        leapYear(yearToCheck);
     }
 
     public static void flip(int numOfFlips)
